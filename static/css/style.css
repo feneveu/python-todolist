@@ -25,6 +25,7 @@ body {
     font-optical-sizing: auto;
     margin: 0;
     padding: 0;
+    padding-bottom: 50px;
 }
 
 h2, h3 {
@@ -96,6 +97,7 @@ a {
 .btn-warning:hover {
     background-color: #db5800;
     border-color: #db5800;
+    color: white;
 }
 
 /* orange logout button */
@@ -110,6 +112,7 @@ a {
 .btn-danger:hover {
     background-color: #db5800;
     border-color: #db5800;
+    color: white;
 }
 
 
