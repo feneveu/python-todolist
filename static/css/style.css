@@ -1,0 +1,247 @@
+/* Top navigation bar design */
+.navbar-brand {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 23px;
+}
+
+/* Title Container for edit/add task */
+.title-container {
+    background-color: #007BFF; /* matches the homepage top bar color*/
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* General Styles */
+body {
+    background-color: #F4F4F9; /* light grey background */
+    color: #333333;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3 {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* Header-container for the to do list title */
+.header {
+    background-color: #373F78;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 20px;
+}
+
+/* Links */
+a {
+    color: #4A90E2;
+    text-decoration: none;
+}
+
+/* Button Styles */
+
+/* purple order by buttons */
+.btn-secondary {
+    background-color: #6C63FF;
+    border-color: #6C63FF;
+    color: white;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+}
+.btn-secondary:hover {
+    background-color: #5548E1;
+    border-color: #5548E1;
+    color: white;
+}
+
+/* The blue add task or change task buttons */
+
+/*  */
+.btn-primary {
+    background-color: #007BFF;
+    border-color: #007BFF;
+    color: white;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+    color: white;
+}
+
+/* any orange button not logout */
+.btn-warning {
+    background-color: #FF6F00;
+    border-color: #FF6F00;
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.btn-warning:hover {
+    background-color: #db5800;
+    border-color: #db5800;
+}
+
+/* orange logout button */
+.btn-danger {
+    background-color: #FF6F00;
+    border-color: #FF6F00;
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.btn-danger:hover {
+    background-color: #db5800;
+    border-color: #db5800;
+}
+
+
+/* Task List */
+.list-group-item {
+    background-color: #FFFFFF;
+    color: #333333;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item:hover {
+    background-color: #F0F0F0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Task Importance Badge - next to slider */
+.badge {
+    background-color: #FF6F00;
+    color: white;
+}
+
+/* Make the slider number box larger */
+#importanceValue {
+    font-size: 1.5rem;  /* Increase the font size */
+    font-weight: bold;  /* Optional: Make the text bold */
+    padding: 0.2rem 0.5rem;  /* Add some padding to make the box bigger */
+    background-color: #4A90E2;  /* Match the theme color */
+    color: white;  /* White text for contrast */
+    border-radius: 5px;  /* Round the corners */
+    display: inline-block;
+    margin-left: 10px;  /* Add a gap between the slider and the number */
+}
+
+/* Form Styles */
+.form-select, .form-control {
+    background-color: #FFFFFF;
+    color: #333333;
+    border-color: #DDDDDD;
+}
+
+.form-select:focus, .form-control:focus {
+    border-color: #4A90E2;
+    box-shadow: 0 0 0 0.25rem rgba(74, 144, 226, 0.25);
+}
+
+/* Task Importance Slider */
+.form-range {
+    width: 100%;
+    background-color: #DDDDDD;
+    border-radius: 10px;
+}
+
+.form-range:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.25rem rgba(74, 144, 226, 0.25);
+}
+
+.form-range::-webkit-slider-thumb {
+    background-color: #4A90E2;
+    border: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.form-range::-moz-range-thumb {
+    background-color: #4A90E2;
+    border: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Cards */
+.card {
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Task Card Button Alignment - aligns edit & delete*/
+.card-body .btn-container {
+    gap: 40px;
+}
+
+/* card title font/style */
+.card-header {
+    background-color: #4A90E2;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* Form Container */
+.container {
+    max-width: 900px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Footer */
+footer {
+    background-color: #4A90E2;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Modal */
+.modal-content {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
