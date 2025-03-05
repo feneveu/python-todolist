@@ -9,7 +9,7 @@ from sqlalchemy.orm import relationship, DeclarativeBase, Mapped, mapped_column
 
 # Configure the Flask App
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+app.config['SECRET_KEY'] = SECRET_KEY
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///todolist.db'
 
 
